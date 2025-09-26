@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tyuiu.GalchinskayaVV.Sprint1.Task0.V19.Lib;
-
+ 
 namespace Tyuiu.GalchinskayaVV.Sprint1.Task0.V19.Test
 {
     [TestClass]
