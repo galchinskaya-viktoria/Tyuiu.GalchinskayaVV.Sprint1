@@ -3,16 +3,17 @@ using System;
 
 namespace Tyuiu.GalchinskayaVV.Sprint1.Task2.V21.Lib
 {
-    public class DataService : ISprint1Task2V21
+    public class DataService : ISprint1Task1V21
     {
-        public int Calculate(double x, double y)
+        public DataService()
         {
-            return (int)(x * y);
         }
 
-        public int CalculateRectangleSquare(int value, int valueTwo)
+        public double Calculate(double x, double y)
         {
-            throw new NotImplementedException();
+            return x * y;
         }
+
+        public string CalculateRectangleArea(int side1, int side2) => throw new NotImplementedException();
     }
 }
