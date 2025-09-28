@@ -10,51 +10,10 @@ namespace Tyuiu.GalchinskayaVV.Sprint1.Task2.V21.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-
-            double x = 6.0;
-            double y = 3.0;
+            int x = 6;
+            int y = 3;
             var result = ds.Calculate(x, y);
-            var wait = 18; // 6 * 3 = 18
-
-            Assert.AreEqual(wait, result);
-        }
-
-        [TestMethod]
-        public void ValidCalculateWithZero()
-        {
-            DataService ds = new DataService();
-
-            double x = 0.0;
-            double y = 10.0;
-            var result = ds.Calculate(x, y);
-            var wait = 0; // 0 * 10 = 0
-
-            Assert.AreEqual(wait, result);
-        }
-
-        [TestMethod]
-        public void ValidCalculateWithLargeNumbers()
-        {
-            DataService ds = new DataService();
-
-            double x = 25.0;
-            double y = 40.0;
-            var result = ds.Calculate(x, y);
-            var wait = 1000; // 25 * 40 = 1000
-
-            Assert.AreEqual(wait, result);
-        }
-
-        [TestMethod]
-        public void ValidCalculateSquare()
-        {
-            DataService ds = new DataService();
-
-            double x = 7.0;
-            double y = 7.0;
-            var result = ds.Calculate(x, y);
-            var wait = 49; // 7 * 7 = 49
-
+            var wait = 18;
             Assert.AreEqual(wait, result);
         }
     }

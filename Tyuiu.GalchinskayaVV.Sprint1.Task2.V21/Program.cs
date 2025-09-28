@@ -14,17 +14,17 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine("Введите длину первой стороны прямоугольника (целое число):");
-int side1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите длину первой стороны прямоугольника:");
+int x = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите длину второй стороны прямоугольника (целое число):");
-int side2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите длину второй стороны прямоугольника:");
+int y = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
 DataService ds = new DataService();
-var result = ds.CalculateRectangleArea(side1, side2);
+var result = ds.Calculate(x, y);
 Console.WriteLine("Площадь прямоугольника = " + result);
 Console.ReadKey();
