@@ -1,9 +1,5 @@
 ﻿using Tyuiu.GalchinskayaVV.Sprint1.Task2.V21.Lib;
 
-internal class Program
-{
-    private static void Main(string[] args)
-    {
         Console.Title = "Спринт #1 | Выполнил: Гальчинская В. В. | ПКТб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
