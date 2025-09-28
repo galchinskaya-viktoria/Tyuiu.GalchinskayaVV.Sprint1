@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalchinskayaVV.Sprint
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalchinskayaVV.Sprint1.Task3.V7.Lib", "Tyuiu.GalchinskayaVV.Sprint1.Task3.V7.Lib\Tyuiu.GalchinskayaVV.Sprint1.Task3.V7.Lib.csproj", "{0772FB19-9DD7-431E-B1F0-1BD9E344355B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{CB2AFC59-16BE-478C-922F-DEA62045EE43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
