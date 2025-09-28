@@ -18,7 +18,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-
+         
         Console.WriteLine("Введите длину первой стороны прямоугольника (целое число):");
         int side1 = Convert.ToInt32(Console.ReadLine());
 
