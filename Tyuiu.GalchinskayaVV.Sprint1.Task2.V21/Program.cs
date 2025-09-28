@@ -31,7 +31,7 @@ internal class Program
 
         DataService ds = new DataService();
         var result = ds.Calculate(side1, side2);
-        Console.WriteLine("Площадь прямоугольника = " + (int)result);
+        Console.WriteLine("Площадь прямоугольника = " + result);
         Console.ReadKey();
     }
 }
