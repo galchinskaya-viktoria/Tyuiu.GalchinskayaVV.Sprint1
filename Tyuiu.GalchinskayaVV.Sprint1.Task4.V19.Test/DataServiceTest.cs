@@ -82,4 +82,4 @@ namespace Tyuiu.GalchinskayaVV.Sprint1.Task4.V19.Test
             ds.Calculate(x, y); // (2 + 5) / |2 - 2| = 7 / 0 → деление на ноль
         }
     }
-}
+} 
